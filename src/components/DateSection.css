@@ -1,0 +1,26 @@
+.date-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .calendar {
+    margin-top: 20px;
+  }
+  
+  .calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  .day {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .selected {
+    background-color: pink;
+    color: white;
+  }
+  
